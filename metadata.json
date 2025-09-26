@@ -1,0 +1,5 @@
+{
+  "name": "Reserva de Sala de TELECOM",
+  "description": "An application for booking meeting rooms, with separate functionalities for common users and administrators. It features an interactive weekly calendar, user management, and customizable appearance.",
+  "requestFramePermissions": []
+}
