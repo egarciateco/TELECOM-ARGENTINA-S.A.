@@ -10,8 +10,8 @@ export const mockUsers: User[] = [
         lastName: 'Garcia',
         email: 'egarcia@teco.com.ar',
         phone: '(343)-4257585',
-        sector: 'Facilities & Servicios',
-        role: 'Empleado',
+        sector: '',
+        role: 'Administrador',
         passwordHash: 'hashed_TECO2025'
     },
     {

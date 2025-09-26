@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "esbuild index.tsx --bundle --outfile=dist/bundle.js --define:process.env.NODE_ENV='\"production\"' --define:process.env.EMAILJS_SERVICE_ID=\"'${EMAILJS_SERVICE_ID}'\" --define:process.env.EMAILJS_TEMPLATE_ID=\"'${EMAILJS_TEMPLATE_ID}'\" --define:process.env.EMAILJS_PUBLIC_KEY=\"'${EMAILJS_PUBLIC_KEY}'\" && cp index.html dist/index.html && cp favicon.ico dist/favicon.ico"
+    "build": "esbuild index.tsx --bundle --outfile=dist/bundle.js --define:process.env.NODE_ENV='\"production\"' --define:process.env.EMAILJS_SERVICE_ID='\"$EMAILJS_SERVICE_ID\"' --define:process.env.EMAILJS_TEMPLATE_ID='\"$EMAILJS_TEMPLATE_ID\"' --define:process.env.EMAILJS_PUBLIC_KEY='\"$EMAILJS_PUBLIC_KEY\"' && cp index.html dist/index.html && cp favicon.ico dist/favicon.ico"
   },
   "dependencies": {
     "react": "^19.1.1",
